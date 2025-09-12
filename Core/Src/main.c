@@ -138,7 +138,6 @@ int main(void)
   HAL_GPIO_WritePin(GPIOB, RED2_Pin, GPIO_PIN_SET);
   while (1)
   {
-    /* USER CODE END WHILE */
 
 	#ifdef ex1
 		 ex1_run();
@@ -179,6 +178,8 @@ int main(void)
 	#ifdef ex10
 		 ex10_run();
 	#endif
+    /* USER CODE END WHILE */
+
 
     /* USER CODE BEGIN 3 */
   }
