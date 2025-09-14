@@ -89,10 +89,10 @@ Core/
   1. Open the file `Core/Src/main.c`.
   2. Several `#define` lines are already provided for each exercise. Simply **uncomment** the line for the exercise you want to demo, and make sure all other exercise defines are commented out.
      ```c
-     // #define EXERCISE_1
-     // #define EXERCISE_2
-     #define EXERCISE_3   // ← Uncomment this line to run exercise 3
-     // #define EXERCISE_4
+     // #define ex_1
+     // #define ex_2
+     #define ex_3   // ← Uncomment this line to run exercise 3
+     // #define ex_4
      // ...
      ```
   3. After building, update the path to the generated `.hex` file in your Proteus simulation to match the new build output.
