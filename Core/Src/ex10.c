@@ -31,7 +31,7 @@ void ex10_run(){
 			min = 0;
 			hourCount++;
 		}
-		if (hourCount == 5){
+		if (hourCount == 1){
 			hour++;
 			hourCount = 0;
 		}
@@ -42,7 +42,7 @@ void ex10_run(){
 		setNumberOnClock(sec);
 		setNumberOnClock(min);
 		setNumberOnClock(hour);
-		HAL_Delay(10);
+		HAL_Delay(3);
 		secCount++;
 	}
 }

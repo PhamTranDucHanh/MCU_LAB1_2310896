@@ -21,7 +21,6 @@ void ex5_run(){
 	  int counter = 3;
 	  while (1)
 	  {
-		  //~~~~~~~~~~~~~~~EX3~~~~~~~~~~~~~~
 		 if (cnt1 == 3){
 			 HAL_GPIO_WritePin(GPIOB, GREEN1_Pin, GPIO_PIN_SET);
 			 HAL_GPIO_WritePin(GPIOB, YELLOW1_Pin, GPIO_PIN_RESET);
